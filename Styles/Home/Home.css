@@ -1,0 +1,14 @@
+body {
+    background: #292f33;
+    margin: 0;
+}
+
+.tweets-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    opacity: 0.9;
+    flex-wrap: wrap;
+    /* height: 100%;
+    overflow: auto; */
+}

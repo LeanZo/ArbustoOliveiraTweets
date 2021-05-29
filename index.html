@@ -1,11 +1,32 @@
 <html>
-    <head>
-        <title>Arbusto Oliveira Tweets</title>
-        <script src="./Libraries/jquery/jquery-3.6.0.min.js"></script>
-    </head>
-    <body>
-        <a class="twitter-timeline" data-lang="pt" data-theme="dark" href="https://twitter.com/ArbustoOliveira?ref_src=twsrc%5Etfw">Tweets por @ArbustoOliveira</a> 
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <script>document.write('<script src="./Scripts/Home/Tweets.js?v=' + Date.now() + '"><\/script>');</script>
-    </body>
+
+<head>
+    <title>Arbusto Oliveira Tweets</title>
+    <link rel="stylesheet" href="./Styles/Home/Home.css">
+    <link rel="stylesheet" href="./Styles/Effects/Starshine.css">
+    <link rel="stylesheet" href="./Styles/Effects/Snow.css">
+    <link rel="stylesheet" href="./Styles/Effects/Stars.css">
+
+    <script src="./Libraries/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./Libraries/particles/particles.min.js"></script>
+</head>
+
+<body>
+    <div id="starshine">
+        <div class="tweets-container">
+            <div class="template shine"></div>
+            <iframe src="https://open.spotify.com/embed/track/0UsdtLayy7SqJ4rUsDMRk8?theme=0" width="100%" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <a class="twitter-timeline" data-lang="pt" data-width="1200" data-theme="dark"
+            href="https://twitter.com/ArbustoOliveira?ref_src=twsrc%5Etfw"></a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="particles-js-stars"></div>
+
+    <script>document.write('<script src="./Scripts/Effects/Starshine.js?v=' + Date.now() + '"><\/script>');</script>
+    <script>document.write('<script src="./Scripts/Effects/Snow.js?v=' + Date.now() + '"><\/script>');</script>
+    <script>document.write('<script src="./Scripts/Effects/Stars.js?v=' + Date.now() + '"><\/script>');</script>
+</body>
+
 </html>
